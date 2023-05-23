@@ -1,0 +1,77 @@
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+#qr-text {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: #A9A9A9;
+    letter-spacing: -0.5px;
+}
+
+#qr-header {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+#qr-text, #qr-header {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+#qrcodeimage {
+    align-content: center;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#qrcode {
+    width: 280px;
+    background-color: white;
+    text-align: center;
+   
+    height: 430px;
+    position: absolute;               
+    top: 50%;    
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+   border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+  
+}
+
+#qr-background {
+    background-color: #D5E1EF;
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+ #qr-background {
+    width: 100%;
+    height: 740px;
+     margin: 0px;
+     padding: 0px;
+     box-shadow: none;
+}
+    
+
+    body {
+        margin:0px;
+        padding:0px;
+        background-color: #D5E1EF;
+    }
+
+  }
